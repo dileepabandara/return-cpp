@@ -10,6 +10,10 @@
 using namespace std;
 
 int main() {
-    cout << "Hello World!" << endl;
+    int count = 1;
+    while (count <= 20) {
+        cout << count << " - My name is Dileepa " << endl;
+        count++;
+    }
     return 0;
 }

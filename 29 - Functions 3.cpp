@@ -9,7 +9,13 @@
 
 using namespace std;
 
+void average() {
+    int a = 20, b = 30, average = 0;
+    average = (a + b) / 2;
+    cout << average << endl;
+}
+
 int main() {
-    cout << "Hello World!" << endl;
+    average();
     return 0;
 }

@@ -9,7 +9,14 @@
 
 using namespace std;
 
+int sum() {
+    int a = 45, b = 45, sum = 0;
+    sum = a + b;
+    cout << sum << endl;
+    return sum;
+}
+
 int main() {
-    cout << "Hello World!" << endl;
+    sum();
     return 0;
 }

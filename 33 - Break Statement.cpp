@@ -10,6 +10,11 @@
 using namespace std;
 
 int main() {
-    cout << "Hello World!" << endl;
+    int count;
+    for (count = 1; count <= 10; count++) {
+        cout << count << endl;
+        if (count == 7)
+            break;
+    }
     return 0;
 }

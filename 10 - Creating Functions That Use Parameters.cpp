@@ -9,7 +9,12 @@
 
 using namespace std;
 
+void print_my_number(int n) {
+    cout << "My favorite number is " << n << endl;
+}
+
+
 int main() {
-    cout << "Hello World!" << endl;
+    print_my_number(21);
     return 0;
 }

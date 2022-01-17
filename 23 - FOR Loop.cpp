@@ -10,6 +10,9 @@
 using namespace std;
 
 int main() {
-    cout << "Hello World!" << endl;
+    int count;
+    for (count = 1; count <= 10; count++) {
+        cout << "this is for loop" << endl;
+    }
     return 0;
 }

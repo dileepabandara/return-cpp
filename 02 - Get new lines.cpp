@@ -10,6 +10,7 @@
 using namespace std;
 
 int main() {
-    cout << "Hello World!" << endl;
+    cout << " I use\n (backslash n)\n and\n (endl)\n to get new lines" << endl;
+    cout << " for this sentence" << endl;
     return 0;
 }

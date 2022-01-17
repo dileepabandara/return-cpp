@@ -9,7 +9,11 @@
 
 using namespace std;
 
+void sum(int a, int b) {
+    cout << a + b << endl;
+}
+
 int main() {
-    cout << "Hello World!" << endl;
+    sum(12, 20);
     return 0;
 }

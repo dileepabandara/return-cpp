@@ -10,6 +10,11 @@
 using namespace std;
 
 int main() {
-    cout << "Hello World!" << endl;
+    int a = 12, b = 48;
+
+    a = ++a;
+    b = ++b;
+    cout << a << endl << b << endl;
+
     return 0;
 }

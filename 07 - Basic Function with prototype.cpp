@@ -9,7 +9,14 @@
 
 using namespace std;
 
+void print_a_sentence();
+
 int main() {
-    cout << "Hello World!" << endl;
+    print_a_sentence();
     return 0;
 }
+
+void print_a_sentence() {
+    cout << " Hello.. I use a function with using prototype" << endl;
+}
+

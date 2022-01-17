@@ -10,6 +10,11 @@
 using namespace std;
 
 int main() {
-    cout << "Hello World!" << endl;
+    bool paid = false;
+    if (!paid) {
+        cout << "You can enter";
+    } else {
+        cout << "Please Exit";
+    }
     return 0;
 }

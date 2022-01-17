@@ -10,6 +10,10 @@
 using namespace std;
 
 int main() {
-    cout << "Hello World!" << endl;
+    cout << "Enter your balance: ";
+    int balance;
+    cin >> balance;
+
+    balance >= 100 ? cout << "yes" : cout << "no";
     return 0;
 }

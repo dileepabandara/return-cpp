@@ -10,6 +10,11 @@
 using namespace std;
 
 int main() {
-    cout << "Hello World!" << endl;
+    int count;
+    for (count = 1; count <= 5; count++) {
+        if (count == 3)
+            continue;
+        cout << " " << count << endl;
+    }
     return 0;
 }
